@@ -1,1 +1,129 @@
-/* Add your styles here. */
+body {
+    background-color: #FBEED1;
+    color: #7A5E5E;
+    font-family: Georgia, serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #7A5E5E;
+    font-size: 42px;
+}
+
+h2 {
+    color: #7A5E5E;
+    font-size: 28px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #7A5E5E;
+}
+
+a:hover {
+    background-color: #A0BD7F;
+}
+
+.navigation {
+    background-color: #E7B8B8;
+    padding: 15px;
+    margin: 10px;
+}
+
+.navigation a {
+    color: #7A5E5E;
+    margin: 10px;
+}
+
+.intro {
+    background-color: #FBEED1;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #E7B8B8;
+}
+
+.supplies {
+    background-color: #E7B8B8;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #7A5E5E;
+}
+
+.comparison {
+    background-color: #F3D6D6;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #E7B8B8;
+}
+
+.resources {
+    background-color: #E7B8B8;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #7A5E5E;
+}
+
+.steps {
+    background-color: #F3D6D6;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #E7B8B8;
+}
+
+.tip {
+    background-color: #E7B8B8;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #7A5E5E;
+}
+
+.gallery {
+    background-color: #F3D6D6;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #E7B8B8;
+}
+
+.special {
+    color: #5B7663;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#main-image {
+    border: 4px solid #E7B8B8;
+}
+
+img {
+    max-width: 100%;
+}
+
+table {
+    background-color: #FBEED1;
+}
+
+th {
+    background-color: #E7B8B8;
+    color: #7A5E5E;
+    padding: 10px;
+    border: 1px solid #7A5E5E;
+}
+
+td {
+    background-color: #FBEED1;
+    padding: 10px;
+    border: 1px solid #E7B8B8;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
